@@ -1,5 +1,5 @@
 FROM buildpack-deps:bullseye-curl
-MAINTAINER Manfred Touron <m@42.am> (https://github.com/moul)
+Label org.opencontainers.image.authors="Jorg Neves Bliesener <jbliesener@bliesener.com>, Manfred Touron <m@42.am> (https://github.com/moul)"
 
 # Install deps
 RUN set -x; echo "Starting image build for Debian Stretch" \

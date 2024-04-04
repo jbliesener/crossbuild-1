@@ -2,7 +2,7 @@ name: actions
 on:
   push:
     branches:
-      - m1
+      - master
 #  pull_request:
 #    branches:
 #      - master
